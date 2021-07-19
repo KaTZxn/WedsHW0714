@@ -150,15 +150,6 @@ public:
 	void SetNum(char _num) { num = _num; }
 	void SetColor(char _color) { color = _color; }
 };
-struct CardCase
-{
-private:
-	
-public:
-	
-};
-
-
 
 int Q11()
 {
