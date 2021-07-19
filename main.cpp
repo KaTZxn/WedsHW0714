@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#include <time.h>
 
 /*第１問
 以下の2進数の計算に答えよ。
@@ -177,8 +178,9 @@ int Q11()
 	card[52].SetColor('J');
 	card[52].SetNum('0');
 
-
+	
 	Card* a, * b, c;
+	srand(time(NULL));
 	for (int i = 0; i < 100; i++)
 	{
 		a = card + rand() % 53;
